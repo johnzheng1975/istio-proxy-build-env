@@ -24,7 +24,7 @@ curl \
 lsb-core \
 software-properties-common && \
 #use bazelisk to avoid bazel compatibility issue
-wget -O /usr/local/bin/bazel https://github.com/bazelbuild/bazelisk/releases/download/v0.0.8/bazelisk-linux-amd64 && \
+wget -O /usr/local/bin/bazel https://github.com/bazelbuild/bazel/releases/download/1.1.0/bazel-1.1.0-linux-x86_64 && \
 chmod +x /usr/local/bin/bazel && \
 #golang
 curl -LO https://dl.google.com/go/go1.13.5.linux-amd64.tar.gz && \
